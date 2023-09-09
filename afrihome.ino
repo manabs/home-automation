@@ -2,8 +2,8 @@
 #include <ESP8266HTTPClient.h>
 #include <WiFi.h>
  
-const char* ssid = "F9";
-const char* password = "yanga123";
+const char* ssid = "";
+const char* password = "";
 
 #define RELAY_PIN1 0 // ESP32 pin GIOP27 connected to the IN pin of relay
 #define RELAY_PIN2 1 // ESP32 pin GIOP27 connected to the IN pin of relay
