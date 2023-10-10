@@ -64,7 +64,7 @@ void setup () {
 void loop() {
     if (WiFi.status() == WL_CONNECTED) { //Check WiFi connection status
     HTTPClient http;  //Declare an object of class HTTPClient
-    http.begin("https://afrihome.000webhostapp.com/serve_receive.php");  //Specify request destination
+    http.begin("https://");  //Specify request destination
     int httpCode = http.GET();                                  //Send the request 
     if (httpCode > 0) { //Check the returning code
       String payload = http.getString();   //Get the request response payload
